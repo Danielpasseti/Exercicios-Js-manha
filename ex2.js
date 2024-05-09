@@ -24,4 +24,8 @@ if(semana == "6")
 console.log("Sabado")
 
 if(semana == "7")
-console.log("Domingo")
+console.log("Domingo");
+
+if (semana > 7){
+g("Esse dia não existe")
+}
