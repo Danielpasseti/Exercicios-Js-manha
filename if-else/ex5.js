@@ -7,10 +7,10 @@ let primeiroNumero = parseInt(prompt("Digite o primeiro número:"))
 let segundoNumero = parseInt(prompt("Digite  o segundo número:"))
 let terceiroNumero = parseInt(prompt("Digite o terceiro número:"))
 
-if(primeiroNumero < sgundoNumero && segundoNumero < terceiroNumero){
+if (primeiroNumero < sgundoNumero && segundoNumero < terceiroNumero) {
     console.log("Os números estão em ordem crescente!!!")
 }
 
-else{
+else {
     console.log("Os números NÃO estão em ordem crescente!!!")
 }
